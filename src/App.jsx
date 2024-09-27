@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Container from "./components/Container";
 import TaskItem from "./components/TaskItem";
 import AddTask from "./components/AddTask";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   const [tasks, setTask] = useState([]);
@@ -24,6 +26,7 @@ function App() {
   return (
     <div className="App flex bg-gradient-to-r from-blue-500 to-teal-200 justify-center items-center h-screen w-screen">
       <Container>
+        <Header />
         <div className="flex flex-col flex-1 p-5 items-top gap-5">
           {/* add task */}
           <AddTask onAdd={handleAdd} />
@@ -51,6 +54,7 @@ function App() {
             ))}
         </div>
       </Container>
+      <Footer />
     </div>
   );
 }

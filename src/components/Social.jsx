@@ -4,14 +4,14 @@ export default function () {
       <div class="fixed h-full flex-grow flex flex-col justify-center items-center gap-2 after:bg-white after:h-20 after:w-10 after:absolute after:z-0">
         <a
           class="w-full pl-1 z-10"
-          href="https://github.com/LeonardoSalvucci/react-tailwind-todo"
+          href="https://github.com/shahbaz123ahmed/to-do.git"
           target="_blank"
         >
           <img src="/img/github.svg" class="h-6 hover:scale-125 duration-300" />
         </a>
         <a
           class="w-full pl-1 z-10"
-          href="https://www.linkedin.com/in/leonardosalvucci/"
+          href="https://www.linkedin.com/in/shahbaz-ahmed-872680215/"
           target="_blank"
         >
           <img
